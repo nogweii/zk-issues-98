@@ -16,18 +16,24 @@ title: "Experiments One"
 ### These get detected as a link, but result in 'not found' LSP indicators
 
 [[ker6z | these terms]]
-[[these terms|ker6z]]
-[[these terms | ker6z]]
 [[.ker6z | these terms]]
 [[ker6z. | foo]]
-[[these terms | Digital Garden/terms-of-gardening.ker6z]]
 [[Digital Garden/terms-of-gardening.ker6z | these terms]]
-[[these terms | terms-of-gardening]]
 [[Digital Garden/terms-of-gardening.ker6z.md | these terms]]
-[[these terms | Digital Garden/terms-of-gardening.ker6z.md]]
 
 [Terms of Gardening](terms-of-gardening.ker6z)
 [Terms of Gardening](ker6z)
+
+#### These get detected as links and result in not found, but that's expected
+
+Flipping the Wiki link syntax around (putting the label on the left of the `|`
+character) does not affect the parsing.
+
+[[these terms | Digital Garden/terms-of-gardening.ker6z]]
+[[these terms | terms-of-gardening]]
+[[these terms | Digital Garden/terms-of-gardening.ker6z.md]]
+[[these terms|ker6z]]
+[[these terms | ker6z]]
 
 ### These work as expected
 
